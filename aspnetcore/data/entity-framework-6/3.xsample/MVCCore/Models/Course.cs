@@ -11,6 +11,7 @@ namespace ContosoUniversity.Models
         public string Title { get; set; }
         public int Credits { get; set; }
         public int Credits1 { get; set; }
+        public int Credits2 { get; set; }
 
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
